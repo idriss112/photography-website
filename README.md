@@ -7,6 +7,7 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![EmailJS](https://img.shields.io/badge/EmailJS-DD4B39?style=for-the-badge&logo=gmail&logoColor=white)
 
 A modern, minimalist photography portfolio showcasing raw, intense, and unfiltered boxing photography and cinematic portraits.
 
