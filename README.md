@@ -11,7 +11,7 @@
 
 A modern, minimalist photography portfolio showcasing raw, intense, and unfiltered boxing photography and cinematic portraits.
 
-[Features](#-features) • [Technologies](#-technologies) • [Installation](#-installation) • [Demo](#-demo) • [Contact](#-contact)
+[Features](#-features) • [Technologies](#-technologies) • [Installation](#-installation) 
 
 </div>
 
