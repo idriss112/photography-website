@@ -784,11 +784,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Driz - Half Raw Motion**
+**Driss Laaziri**
 
--  Email: idrisslaaziri@gmail.com
--  Linkedin : https://www.linkedin.com/in/idrisslzr/
--  Github : https://github.com/idriss112 
+- Email: idrsslaaziri@gmail.com
+- GitHub: [@idriss112](https://github.com/idriss112)
+- LinkedIn: [Connect with me](https://www.linkedin.com/in/idrisslzr/)
 
 ---
 
