@@ -190,7 +190,7 @@ photography-website/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/YOUR-USERNAME/photography-website.git
+git clone https://github.com/idriss112/photography-website
 cd photography-website
 ```
 
@@ -433,12 +433,9 @@ function doPost(e) {
   
   const rowData = [
     data.booking_id,
-    data.timestamp,
     data.fullname,
     data.email,
     data.phone,
-    data.arrival_date,
-    data.departure_date,
     data.description,
     'New'
   ];
@@ -450,10 +447,7 @@ function doPost(e) {
 }
 ```
 
-**Spreadsheet Structure:**
-| Booking ID | Timestamp | Name | Email | Phone | Arrival | Departure | Description | Status |
-|------------|-----------|------|-------|-------|---------|-----------|-------------|--------|
-| 123456789  | 2026-01-28 | John | john@... | +123... | 2026-02-01 | 2026-02-05 | First timer | New |
+|
 
 #### 🔐 Security & Best Practices
 
@@ -792,10 +786,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Driz - Half Raw Motion**
 
-- 📧 Email: hello@halfrawmotion.com
-- 📸 Instagram: [@half_raw_motion](https://www.instagram.com/half_raw_motion/)
-- 📘 Facebook: [@photohrm](https://www.facebook.com/photohrm/)
-- 🌍 Based in: Montreal, QC, Canada
+-  Email: idrisslaaziri@gmail.com
+-  Linkedin : https://www.linkedin.com/in/idrisslzr/
+-  Github : https://github.com/idriss112 
 
 ---
 
@@ -811,13 +804,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Support
-
-Need help or have questions?
-
-- 📧 **Email**: hello@halfrawmotion.com
-- 💬 **Create an Issue**: [GitHub Issues](https://github.com/YOUR-USERNAME/photography-website/issues)
-- 📱 **Social Media**: Reach out on Instagram or Facebook
 
 ---
 
