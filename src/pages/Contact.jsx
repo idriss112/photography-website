@@ -29,10 +29,10 @@ export default function Contact() {
                                     Email
                                 </h3>
                                 <a
-                                    href="mailto:hello@halfrawmotion.com"
+                                    href="mailto:contact@halfrawmotion.com"
                                     className="text-white text-lg md:text-xl font-light hover:text-white/70 transition-colors inline-flex items-center gap-2 group"
                                 >
-                                    hello@halfrawmotion.com
+                                    contact@halfrawmotion.com
                                     <ArrowUpRight className="w-5 h-5 opacity-0 group-hover:opacity-100 transition-opacity" />
                                 </a>
                             </div>

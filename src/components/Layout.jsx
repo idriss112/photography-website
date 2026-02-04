@@ -155,10 +155,10 @@ export default function Layout({ children, currentPageName }) {
             
             <div className="flex items-center gap-8">
               <a 
-                href="mailto:hello@halfrawmotion.com"
+                href="mailto:contact@halfrawmotion.com"
                 className="text-white/30 text-sm tracking-wider hover:text-white/60 transition-colors"
               >
-                hello@halfrawmotion.com
+                contact@halfrawmotion.com
               </a>
               <div className="flex items-center gap-4">
                 <a 

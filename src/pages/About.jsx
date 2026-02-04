@@ -14,7 +14,7 @@ export default function About() {
                     >
                         <div className="relative overflow-hidden">
                             <img
-                                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/695fc470980ee8826b6ec90b/3503aa5b2_IMG_45091.jpg"
+                                src="https://sjuvtplxpqsjekqwxmml.supabase.co/storage/v1/object/public/About%20section/Best_Photgrapher_Montreal.jpg"
                                 alt="Behind the scenes"
                                 className="w-full object-cover aspect-[3/4]"
                             />
@@ -37,21 +37,18 @@ export default function About() {
 
                         <div className="space-y-6 text-white/60 text-lg leading-relaxed font-light">
                             <p>
-                                Half Raw Motion was born from a fascination with the unfiltered moments
-                                that exist between the posed and the perfect — those split seconds where
-                                emotion transcends the frame and becomes something visceral.
+                                My name is Hernane Ferreira, and I’m the eye behind Half Raw Motion.
+                                Before it became a photography brand, it was a way I saw people. I’ve always been drawn to the moments most overlook the breath before impact, the focus behind tired eyes, the split second when someone is fully present, fully human, and fully in motion. That’s where truth lives. That’s where I aim my camera.
                             </p>
 
                             <p>
-                                My work lives in the intersection of sports photography and cinematic
-                                portraiture. I chase the tension in a boxer's stance before the bell,
-                                the determination etched into sweat-soaked features, and the raw
-                                vulnerability that surfaces in moments of triumph and defeat.
+                                Half Raw Motion was born from that obsession, long before it was ever a camera.
+                                HALF is the mindset: living as if our goals are already in motion, mentally halfway there because once one summit is reached, the next one is already calling. Progress is the default. Complacency has no place. RAW is the way we see: unfiltered, unstaged, honest. The moments that are too real, too fast, too human to fake sweat, breath, tension, release. Authenticity in motion.
                             </p>
 
                             <p>
-                                Every photograph I create is an attempt to freeze motion while preserving
-                                its energy — to capture not just what happened, but how it felt to be there.
+                                And MOTION is where everything comes together.
+                                No one is finished. No one is final. The people in front of the lens are not subjects they are individuals in progress, in pursuit, in transformation. Half Raw Motion exists to capture that exact point: raw potential, while it’s still unfolding. These aren’t posed images. They’re moments seized before they disappear. Because opportunity doesn’t wait—and neither do we. More than photography, it’s a philosophy of becoming, documented.
                             </p>
                         </div>
 
