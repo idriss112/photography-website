@@ -67,21 +67,7 @@ export default function About() {
                             </blockquote>
                         </div>
 
-                        {/* Stats/Highlights */}
-                        <div className="grid grid-cols-3 gap-8 mt-16">
-                            <div>
-                                <div className="text-3xl md:text-4xl font-light text-white mb-2">8+</div>
-                                <div className="text-xs tracking-[0.2em] uppercase text-white/40">Years</div>
-                            </div>
-                            <div>
-                                <div className="text-3xl md:text-4xl font-light text-white mb-2">200+</div>
-                                <div className="text-xs tracking-[0.2em] uppercase text-white/40">Sessions</div>
-                            </div>
-                            <div>
-                                <div className="text-3xl md:text-4xl font-light text-white mb-2">50+</div>
-                                <div className="text-xs tracking-[0.2em] uppercase text-white/40">Athletes</div>
-                            </div>
-                        </div>
+
                     </motion.div>
                 </div>
             </div>
