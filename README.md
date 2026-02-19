@@ -19,7 +19,7 @@ A modern photography portfolio website built for Half Raw Motion with React and 
 - [Deployment](#deployment)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
-- [Author](#author)
+
 
 ## Overview
 
@@ -193,10 +193,4 @@ git commit -m "Add your feature"
 
 4. Push your branch and open a pull request.
 
-## Author
 
-Half Raw Motion
-
-- Instagram: https://www.instagram.com/half_raw_motion/
-- Facebook: https://www.facebook.com/photohrm/
-- Contact: contact@halfrawmotion.com
