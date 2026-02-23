@@ -73,9 +73,16 @@ export default function Layout({ children, currentPageName }) {
           <div className="flex items-center justify-between h-20 md:h-24">
             <Link 
               to={createPageUrl('Home')}
-              className="text-white text-lg md:text-xl tracking-[0.1em] font-light hover:opacity-70 transition-opacity"
+              className="block hover:opacity-80 transition-opacity"
+              aria-label="Half Raw Motion Home"
             >
-              HALF RAW MOTION
+              <img
+                src="/half-raw-motion-logo.png"
+                alt="Half Raw Motion"
+                className="h-8 md:h-10 w-auto object-contain"
+                loading="eager"
+                decoding="async"
+              />
             </Link>
 
             <div className="hidden md:flex items-center gap-10">

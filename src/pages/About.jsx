@@ -1,76 +1,104 @@
 import { motion } from 'framer-motion';
 
+const storySections = [
+  {
+    title: 'Who I Am',
+    paragraphs: [
+      'Founder of Half Raw Motion.',
+      'Cinematic Sports & Portrait Photographer.',
+      'Brand & Marketing Growth Specialist.'
+    ]
+  },
+  {
+    title: 'Why This Exists',
+    paragraphs: [
+      'I came to Montreal from Guinea Bissau, West Africa, as a young immigrant working as a grocery store clerk during the pandemic. People kept commenting on my smile and saying it lit up the room when everyone was scared. They told me to try modeling. So I did.',
+      'What I found was frustrating. I kept searching for photographers who could reveal something real, not just pose you, but capture the energy and emotion that are already there. Nobody was doing it the way I envisioned it, so I decided to learn it myself.',
+      'In late 2023, with a $1,500 tax refund and a choice between a guitar, paying bills, or investing in something that truly meant something, I chose a camera. Not on impulse. On purpose.'
+    ]
+  },
+  {
+    title: 'Why Boxing',
+    paragraphs: [
+      'As someone who trains boxing multiple times a week, I noticed something that bothered me. The sport I love, in this city I call home, had little to no dedicated media presence and not enough boxing photographers in Montreal.',
+      'Fighters, gyms, and promoters in Montreal were still showing up online with content that did not reflect their level. That is unacceptable when the talent is world-class and the goal is to build strong gym and athlete branding.',
+      'Half Raw Motion exists to fix that.'
+    ]
+  },
+  {
+    title: "What We're Building",
+    paragraphs: [
+      'Every client we work with brings us closer to something bigger. Beyond photography, the mission has always included giving back to the community through representation, growth, and service to people who are often overlooked.',
+      "When you work with us, you are not just getting images. You are working with someone who understands your world, respects your grind, and is committed to showing people what you're made of."
+    ]
+  }
+];
+
 export default function About() {
-    return (
-        <div className="min-h-screen bg-[#0a0a0a] pt-32 pb-24">
-            <div className="max-w-7xl mx-auto px-6 md:px-12">
-                <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-                    {/* Image Column */}
-                    <motion.div
-                        initial={{ opacity: 0, x: -50 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.8 }}
-                        className="relative order-2 lg:order-1"
-                    >
-                        <div className="relative overflow-hidden">
-                            <img
-                                src="https://sjuvtplxpqsjekqwxmml.supabase.co/storage/v1/object/public/About%20section/Best_Photgrapher_Montreal.jpg"
-                                alt="Behind the scenes"
-                                className="w-full object-cover aspect-[3/4]"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-                        </div>
-
-                        <div className="absolute -bottom-6 -right-6 w-32 h-32 border border-white/10" />
-                    </motion.div>
-
-                    {/* Content Column */}
-                    <motion.div
-                        initial={{ opacity: 0, x: 50 }}
-                        animate={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.8, delay: 0.2 }}
-                        className="order-1 lg:order-2"
-                    >
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-light text-white tracking-tight mb-8">
-                            About
-                        </h1>
-
-                        <div className="space-y-6 text-white/60 text-lg leading-relaxed font-light">
-                            <p>
-                                My name is Hernane Ferreira, and I’m the eye behind Half Raw Motion.
-                                Before it became a photography brand, it was a way I saw people. I’ve always been drawn to the moments most overlook the breath before impact, the focus behind tired eyes, the split second when someone is fully present, fully human, and fully in motion. That’s where truth lives. That’s where I aim my camera.
-                            </p>
-
-                            <p>
-                                Half Raw Motion was born from that obsession, long before it was ever a camera.
-                                HALF is the mindset: living as if our goals are already in motion, mentally halfway there because once one summit is reached, the next one is already calling. Progress is the default. Complacency has no place. RAW is the way we see: unfiltered, unstaged, honest. The moments that are too real, too fast, too human to fake sweat, breath, tension, release. Authenticity in motion.
-                            </p>
-
-                            <p>
-                                And MOTION is where everything comes together.
-                                No one is finished. No one is final. The people in front of the lens are not subjects they are individuals in progress, in pursuit, in transformation. Half Raw Motion exists to capture that exact point: raw potential, while it’s still unfolding. These aren’t posed images. They’re moments seized before they disappear. Because opportunity doesn’t wait—and neither do we. More than photography, it’s a philosophy of becoming, documented.
-                            </p>
-                        </div>
-
-                        {/* Philosophy Section */}
-                        <div className="mt-16 pt-16 border-t border-white/10">
-                            <h2 className="text-xs tracking-[0.3em] uppercase text-white/40 mb-6">
-                                The Philosophy
-                            </h2>
-
-                            <blockquote className="text-2xl md:text-3xl font-light text-white leading-relaxed">
-                                "Half Raw" — the space between
-                                <span className="text-white/40"> polished perfection </span>
-                                and
-                                <span className="text-white/40"> unfiltered reality</span>.
-                                Where the most powerful stories exist.
-                            </blockquote>
-                        </div>
-
-
-                    </motion.div>
-                </div>
+  return (
+    <div className="min-h-screen bg-[#0a0a0a] pt-32 pb-24">
+      <div className="max-w-7xl mx-auto px-6 md:px-12">
+        <div className="grid lg:grid-cols-2 gap-12 md:gap-14 lg:gap-20 items-start">
+          <motion.div
+            initial={{ opacity: 0, x: -40 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8 }}
+            className="relative order-2 lg:order-1"
+          >
+            <div className="relative overflow-hidden bg-[#111]">
+              <img
+                src="https://sjuvtplxpqsjekqwxmml.supabase.co/storage/v1/object/public/About%20section/1_1771816727_AKPL0465.jpeg"
+                alt="Portrait of Hernane Ferreira holding a camera"
+                className="w-full aspect-[3/4] object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/25 via-transparent to-transparent" />
             </div>
+            <div className="absolute -bottom-6 -right-6 w-24 h-24 md:w-28 md:h-28 border border-white/10" />
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, x: 40 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8, delay: 0.15 }}
+            className="order-1 lg:order-2 lg:pr-3"
+          >
+            <header className="mb-12">
+              <h1 className="text-4xl md:text-5xl lg:text-[3.3rem] font-light text-white tracking-tight mb-4">
+                About
+              </h1>
+
+              <h2 className="text-xl md:text-2xl lg:text-[2rem] font-light text-white/90 mb-6">
+                Hey, I&apos;m Hernane.
+              </h2>
+
+              <p className="max-w-[64ch] text-white/70 text-base md:text-lg leading-[1.85] font-light">
+                Entrepreneur, photographer, boxing enthusiast, and the founder of Half Raw Motion, a cinematic sports
+                photography studio based in Montreal, Quebec. I&apos;m here to represent boxers, fighters, gyms, and
+                athletes in their truest and rawest form, in ways they&apos;ve never been represented before.
+              </p>
+            </header>
+
+            <div className="space-y-12 md:space-y-14 max-w-[68ch]">
+              {storySections.map((section) => (
+                <section key={section.title} className="border-t border-white/10 pt-8 first:border-t-0 first:pt-0">
+                  <h3 className="text-xl md:text-2xl lg:text-[2rem] font-light text-white/90 leading-tight mb-5">
+                    {section.title}
+                  </h3>
+                  <div className="space-y-5 text-white/65 text-base md:text-lg leading-[1.9] font-light">
+                    {section.paragraphs.map((paragraph) => (
+                      <p key={paragraph}>{paragraph}</p>
+                    ))}
+                  </div>
+                </section>
+              ))}
+            </div>
+
+            <p className="mt-14 max-w-[28ch] text-white text-xl md:text-[1.75rem] font-light leading-relaxed">
+              Athletes. Gyms. Promoters. This is for you.
+            </p>
+          </motion.div>
         </div>
-    );
+      </div>
+    </div>
+  );
 }
